@@ -26,7 +26,7 @@ function isTriangle() {
     if (sumOfAngles === 180) {
 
         showMessage("Wohooo,The given angles form a triangle");
-
+               
     } else
 
     {
