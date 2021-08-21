@@ -10,6 +10,10 @@
 
 <body>
     <h1>Triangle Quiz</h1>
+
+    <label for="user-name" >Please Enter Your Name</label>
+    <input id="user-name" type="text" />
+
     <form class="quiz-form">
         <div class="question-container">
 
@@ -36,7 +40,42 @@
 
 </div>
 
+<div class="question-container">
 
+    <p>Which of the following triangles have equal two sides?</p>
+
+    <label for=""><input type="radio" name="question3"  value="Equilateral triangle"/>Equilateral triangle</label>
+    <label for=""><input type="radio" name="question3" value="Isosceles triangle"/>Isosceles triangle</label>
+    
+    <!-- name should be the same in order to toggle(select only one option) -->
+
+
+</div>
+
+<div class="question-container">
+
+    <p>There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P and R?</p>
+
+    <label for=""><input type="radio" name="question4"  value="85°"/>85°</label>
+    <label for=""><input type="radio" name="question4" value="65°"/>65°</label>
+    <label for=""><input type="radio" name="question4" value="45°"/>45°</label>
+    <!-- name should be the same in order to toggle(select only one option) -->
+
+
+</div>
+
+<div class="question-container">
+
+    <p>A triangle can have?</p>
+
+    <label for=""><input type="radio" name="question5"  value="one right angle"/>one right angle</label>
+    <label for=""><input type="radio" name="question5" value="two right angles"/>two right angles</label>
+    <label for=""><input type="radio" name="question5" value="three right angles"/>three right angles</label>
+    
+    <!-- name should be the same in order to toggle(select only one option) -->
+
+
+</div>
 </form>
 <button id="submit-button">Submit</button>
 

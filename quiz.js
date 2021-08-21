@@ -4,8 +4,9 @@ const submitAnswerBtn = document.querySelector("#submit-button");
 
 const outputDisplay = document.querySelector("#score-display");
 
+const userName = document.querySelector("#user-name")
 
-const answers = ["90°", "right angled"];
+const answers = ["90°", "right angled" , "Isosceles triangle" , "45°" , "one right angle"];
 
 function calculateScore ()
 {
@@ -25,10 +26,21 @@ if(value === answers[index])
     score = score + 1;
 }
 
+
 index = index + 1;
     }
 
-console.log(score)
+    displayMessage(  "Yayyy!! " + userName.value + ' \n' + " Your Total Score is " +  score); 
 }
 
 submitAnswerBtn.addEventListener('click', calculateScore);
+
+
+function displayMessage (show)
+{
+
+    outputDisplay.innerText = show;
+   
+
+}
+//add enter name option
