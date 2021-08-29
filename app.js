@@ -22,7 +22,15 @@ function isTriangle() {
 
     // type conversion "Number"
     // inputs[0].value,inputs[1].value,inputs[2].value ,is the way we acess input values;
+    //all the inputs willbe stored in the form of array.
 
+    if(isNaN(sumOfAngles) || (sumOfAngles === 0))
+    {
+        showMessage("enter a valid input")
+    }
+    // if string or 0  is entered instead of number.
+else
+{
     if (sumOfAngles === 180) {
 
         showMessage("Wohooo,The given angles form a triangle");
@@ -34,7 +42,7 @@ function isTriangle() {
         showMessage("The given angles do not form a triangle ");
 
     }
-
+}
 
 
 }
