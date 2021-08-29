@@ -9,31 +9,35 @@
 </head>
 <body>
  <nav>
-    <h1> <u> The </u>  <u> Complete</u> <u>Triangle App</u></h1>
+    <h1 class="heading">  The  Complete Triangle App</h1>
     <br>
 <a style="font-weight: bolder;" href="index.html">Is It A Triangle? </a>
-<a href="quiz.html">Triangle Quiz </a>
-<a href="hypotenuse.html">Hypotenuse Of Triangle</a>
-<a href="areaoftriangle.html">Area Of Triangle </a>
+<a href="quiz.html">T-Quiz </a>
+<a href="hypotenuse.html">Hypotenuse</a>
+<a href="areaoftriangle.html">T-Area </a>
 
  </nav>
-    <h1>Is It A Triangle?</h1>
+    <h1 class="sub-heading" >Is It A Triangle?</h1>
     
+<div class="input-body">
 
-    <label for="angle1"> Angle 1</label>
-    <input class="angle" type="text"/>
-
-    <label for="angle2"> Angle 2 </label>
-    <input class="angle" type="text" />
-
-    <label for="angle3"> Angle 3</label>
-    <input class="angle" type="text" />
-
+<div class="angle-input">
+    <label for="angle1"> Angle 1(in degrees)
+    <input class="angle" type="text"/></label>
+</div>
+<div class="angle-input" >
+    <label for="angle2"> Angle 2(in degrees) 
+    <input class="angle" type="text" /></label>
+</div>
+<div class="angle-input">
+    <label for="angle3"> Angle 3(in degrees)
+    <input class="angle" type="text" /></label>
+</div>
     <button id="check-button"> Check </button>
 
     <h3 id="output"> </h3>
 
-
+</div>
     <script src="app.js"></script>
 </body>
 </html>
