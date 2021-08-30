@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+:root
+{
+    --primary-color:#FFA000;
+    --secondary-color:#FFC107;
+    --text-color:#212121;
+}
+*
+{
+    margin: 0em;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+body
+{
+
+    background-color: var(--secondary-color);
+   
+}
+nav
+{
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+
+ 
+ 
+}
+
+a{
+
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.25rem;
+
+}
+h1
+
+{
+
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+button
+{
+    padding: 0.5rem;
+    background: #536DFE;
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 20%;
+    font-weight: bold;
+text-align: center;
+margin-top: 1rem;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-bottom: 1.5rem;
+
+    font-size: 1rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+
+
+
+.sub-heading
+{
+
+    display: block;
+    /* font-size: 1.5rem; */
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+   
+    font-weight: bold
+}
+
+.input-body
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5rem;
+    display: block;
+    text-align: center;
+    border: solid 0.25rem black;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+
+.angle-input
+{
+
+    margin: 1rem ;
+}
+input
+
+{
+
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 97%;
+    margin: 0.5rem 1rem 1rem 0;
+    font-weight: bold;
+}
+
+label
+{
+    font-size: 1.25rem;
+}
+
+#output-display
+{
+    text-align: center;
+    margin: 2rem ;
+    color:red;
+   
+
+}
+
+.formula {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+}
