@@ -4,30 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hypotenuse.css">
     <title>Hypotenuse</title>
 </head>
 <body>
     <nav>
-        <h1 class="heading">  The  Complete Triangle App</h1>
+        <h1 id="heading">  The  Complete Triangle App</h1>
         <br>
-    <a style="font-weight: bolder;" href="index.html">Is It A Triangle? </a>
-    <a href="quiz.html">T-Quiz </a>
-    <a href="hypotenuse.html">T-Hypotenuse</a>
+    <a  href="index.html">Is It A Triangle? </a>
+    <a  href="quiz.html">T-Quiz </a>
+    <a href="hypotenuse.html" style="font-weight: bolder;">Hypotenuse</a>
     <a href="areaoftriangle.html">T-Area </a>
     
      </nav>
     
 <h1>Hypotenuse Of Triangle</h1>
 
+<div class="input-body">
+
+    <div class="angle-input">
 <label for=""> A=</label>
 <input type="text" class="value-input"/>
+</div>
 
+<div class="angle-input">
 <label for=""> B= </label>
 <input type="text" class="value-input"/>
+</div>
+
 
 <button id="hypotenuse-btn"> Calculate </button>
-
+</div>
 <h2 id="output-display">  </h2>
+
+
+<h2 class="formula">Formula Used:Length of Hypotenuse = sqrt(a² + b²)</h2>
 
 <script src="hypotenuse.js"></script>
 </body>
