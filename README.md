@@ -1,7 +1,7 @@
 # Fun-With-Triangles
 
 ## What is the app about?
-App which checks whether your birthday is a palindrome birthday & if not let's you the nearest palindrome date with how many days you have missed.
+An app which checks whether your birthday is a palindrome birthday & if not let's you know the next and previous palindrome date with how many days you have missed.
 
 
 ## Tech Stack
